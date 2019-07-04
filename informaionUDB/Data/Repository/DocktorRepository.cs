@@ -13,10 +13,5 @@ namespace informaionUDB.Data.Repository
         {
 
         }
-
-        public Docktor GetById(int? Id)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
