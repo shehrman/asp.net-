@@ -15,6 +15,10 @@ namespace informaionUDB.Data
         {
         }
         public DbSet<Docktor> Docktors { get; set; }
-        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
+
     }
 }

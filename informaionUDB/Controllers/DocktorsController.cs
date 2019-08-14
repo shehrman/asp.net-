@@ -11,6 +11,9 @@ using informaionUDB.Data.Interface;
 
 namespace informaionUDB.Controllers
 {
+    // Controller is a class that handles user requests . it retrieves data from the model and renders view as response .... 
+    // the asp.net mvc framework maps requested urls to the classes that are referred to as controllers .
+    // controller 
     public class DocktorsController : Controller
     {
         private readonly IDocktorRepository _docktorRepository;

@@ -8,5 +8,6 @@ namespace informaionUDB.Data.Interface
 {
     public interface IDocktorRepository : IRepository<Docktor>
     {
+
     }
 }
