@@ -27,6 +27,8 @@ namespace informaionUDB.Data
             modelBuilder.Ignore<IdentityUser<string>>();
             modelBuilder.Seed();
 
+            //ModelBuilderExtensions modelBuilderExtensions = new ModelBuilderExtensions();
+            //modelBuilderExtensions.Seed(modelBuilder);
         }
 
 

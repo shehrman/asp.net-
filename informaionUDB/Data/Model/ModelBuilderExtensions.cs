@@ -9,7 +9,7 @@ namespace informaionUDB.Data.Model
     public static class ModelBuilderExtensions
     {
 
-        public  static void Seed(this ModelBuilder modelBuilder)
+        public static  void Seed( this ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Docktor>().HasData(
                  new Docktor
